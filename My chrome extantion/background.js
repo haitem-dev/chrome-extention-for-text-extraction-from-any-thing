@@ -66,7 +66,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                             // Extract only the Base64 part (remove 'data:image/png;base64,')
                             const base64Image = imageDataUrl.split(",")[1];
 
-                          const GEMINI_API_KEY = "AIzaSyDkh25ShYP1XiyfEMD4bmdfg9j-pWXX_5I"; // Replace with your actual API key
+                          const GEMINI_API_KEY = "put here your gimini api key "; // Replace with your actual API key
                           const GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + GEMINI_API_KEY;
 
                             const payload = {
