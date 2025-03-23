@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Captor text",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting",
+       "tabs",
+       "clipboardWrite"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon/icon16x16.png",
+        "48": "icon/48x48.png",
+        "128": "icon/t06qw-2btz4-001.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
