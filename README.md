@@ -1,0 +1,1 @@
+# chrome-extention-for-text-extraction-from-any-thing
